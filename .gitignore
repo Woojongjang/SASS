@@ -1,33 +1,7 @@
-#Autosave files
-*~
-
-# Build/test output
-obj
-bin
-test-results
-
-# VS sometimes writes these for no apparent reason
-_UpgradeReport_Files
-UpgradeLog.*
-
-# Per-user data
-*.DS_Store
-*.sln.cache
-*.suo
-*.userprefs
-*.usertasks
-*.user
-
-# ReSharper
-*_Resharper.*
-*.Resharper
-
-# dotCover
-*.dotCover
-
 #manual entries
 KOTUS/KOTUS.userprefs
 KOTUS/KOTUS/bin/*
-KOTUS/KOTUS/obj/Debug/*
-KOTUS/KOTUS/Resources/drawable-hdpi/.DS_Store
+KOTUS/KOTUS/obj/*
 *.DS_Store
+
+

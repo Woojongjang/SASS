@@ -20,7 +20,8 @@
         android:id="@+id/editText1"
         android:layout_marginLeft="10.5dp"
         android:layout_marginRight="10.5dp"
-        android:background="#ffd0cece" />
+        android:background="#ffd0cece"
+        android:textColor="#ff000000" />
     <TextView
         android:text="User Password"
         android:textAppearance="?android:attr/textAppearanceSmall"
@@ -37,7 +38,8 @@
         android:id="@+id/editText2"
         android:layout_marginLeft="10.5dp"
         android:layout_marginRight="10.5dp"
-        android:background="#ffd0cece" />
+        android:background="#ffd0cece"
+        android:textColor="#ff000000" />
     <Button
         android:text="Log In"
         android:layout_width="match_parent"
