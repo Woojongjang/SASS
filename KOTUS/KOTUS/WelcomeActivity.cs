@@ -43,6 +43,7 @@ namespace KOTUS
 			sign_me_up_link.Click += delegate {
 				// this is where you tell it what to do when the link is pressed
 				Console.WriteLine("Sign Up Text Pressed!!");
+				StartActivity(typeof(signUpActivity));
 			};
 
 		}
