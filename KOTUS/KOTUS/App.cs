@@ -3,6 +3,8 @@ using Android.App;
 using Android.Runtime;
 using Parse;
 
+// placed parse initialize in the splash loading activity so that it is initialized when the app opens.. leaving this file here for now until ready for removal
+/*
 namespace KOTUS
 {
 	[Application]
@@ -22,3 +24,4 @@ namespace KOTUS
 		}
 	}
 }
+*/

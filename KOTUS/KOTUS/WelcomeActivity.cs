@@ -46,6 +46,8 @@ namespace KOTUS
 				StartActivity(typeof(signUpActivity));
 			};
 
+
+
 		}
 	}
 }
