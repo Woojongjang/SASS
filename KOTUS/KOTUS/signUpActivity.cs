@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace KOTUS
 {
-	[Activity (Label = "signUpActivity")]			
+	[Activity (Label = "Sign Up")]			
 	public class signUpActivity : Activity
 	{
 
@@ -54,6 +54,8 @@ namespace KOTUS
 				Console.WriteLine("User Phone: " + phone_number.Text);
 				Console.WriteLine("Password: " + password.Text);
 				Console.WriteLine("Confirm Pass: " + confirm_pass.Text);
+
+				StartActivity(typeof(UserDashActivity));
 			};
 
 
