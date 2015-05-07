@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace KOTUS
 {
-	[Activity (Label = "CreatePersonalEvent")]			
+	[Activity (Label = "Create an Event")]			
 	public class CreatePersonalEvent : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
@@ -21,6 +21,8 @@ namespace KOTUS
 			base.OnCreate (bundle);
 
 			// Create your application here
+
+
 		}
 	}
 }

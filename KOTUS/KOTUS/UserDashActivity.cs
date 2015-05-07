@@ -16,6 +16,11 @@ namespace KOTUS
 	[Activity (Label = "User Dashboard")]			
 	public class UserDashActivity : Activity
 	{
+		private Button event_create_button;
+		private Button browse_group_button;
+		private Button group_list_button;
+
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
