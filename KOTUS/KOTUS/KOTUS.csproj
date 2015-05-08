@@ -55,12 +55,10 @@
     <Compile Include="signUpActivity.cs" />
     <Compile Include="UserDashActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
-<<<<<<< HEAD
-    <Compile Include="EmptyClass.cs" />
-    <Compile Include="writeMessageActivity.cs" />
-=======
     <Compile Include="CreatePersonalEvent.cs" />
->>>>>>> 850ea477f6eb37a8e32be2e7cacdc9dd39100274
+    <Compile Include="EmptyClass.cs" />
+    <Compile Include="messageBoard.cs" />
+    <Compile Include="writeMessageActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -68,6 +66,7 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="lib\Parse.Android.dll" />
     <None Include="lib\Parse.Android.xml" />
+    <None Include="Resources\layout\GroupListView.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
