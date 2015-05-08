@@ -81,11 +81,20 @@ namespace KOTUS
 			// aapt resource value: 0x7f060006
 			public const int firstNameLabel = 2131099654;
 			
+			// aapt resource value: 0x7f060011
+			public const int gridLayout1 = 2131099665;
+			
 			// aapt resource value: 0x7f060009
 			public const int lastName = 2131099657;
 			
 			// aapt resource value: 0x7f060008
 			public const int lastNameLabel = 2131099656;
+			
+			// aapt resource value: 0x7f06000f
+			public const int linearLayout1 = 2131099663;
+			
+			// aapt resource value: 0x7f060010
+			public const int linearLayout4 = 2131099664;
 			
 			// aapt resource value: 0x7f06000b
 			public const int phone = 2131099659;

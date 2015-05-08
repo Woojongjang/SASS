@@ -14,7 +14,7 @@
     <AndroidApplication>True</AndroidApplication>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <AssemblyName>KOTUS</AssemblyName>
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -55,8 +55,12 @@
     <Compile Include="signUpActivity.cs" />
     <Compile Include="UserDashActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
+<<<<<<< HEAD
     <Compile Include="EmptyClass.cs" />
     <Compile Include="writeMessageActivity.cs" />
+=======
+    <Compile Include="CreatePersonalEvent.cs" />
+>>>>>>> 850ea477f6eb37a8e32be2e7cacdc9dd39100274
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
