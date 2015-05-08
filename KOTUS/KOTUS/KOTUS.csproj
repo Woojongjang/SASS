@@ -14,8 +14,10 @@
     <AndroidApplication>True</AndroidApplication>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <AssemblyName>KOTUS</AssemblyName>
-    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +60,8 @@
     <Compile Include="CreatePersonalEvent.cs" />
     <Compile Include="EmptyClass.cs" />
     <Compile Include="writeMessageActivity.cs" />
+    <Compile Include="CreateGroup.cs" />
+    <Compile Include="GroupDashActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -79,6 +83,8 @@
     <AndroidResource Include="Resources\values\Styles.xml" />
     <AndroidResource Include="Resources\layout\signUp.axml" />
     <AndroidResource Include="Resources\layout\UserDash.axml" />
+    <AndroidResource Include="Resources\layout\GroupCreate.axml" />
+    <AndroidResource Include="Resources\layout\GroupDash.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

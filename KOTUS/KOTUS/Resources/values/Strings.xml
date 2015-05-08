@@ -2,4 +2,14 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">KOTUS</string>
+
+<!-- Create Group Strings (by Sarmed)-->
+    <string name="privacy">Choose a Privacy Setting</string>
+    <string-array name="privacy_array">
+       <item>Public</item>
+       <item>Private (viewable)</item>
+       <item>Private (non-viewable)</item>
+    </string-array>
+
+
 </resources>
