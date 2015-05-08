@@ -55,6 +55,8 @@
     <Compile Include="signUpActivity.cs" />
     <Compile Include="UserDashActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="EmptyClass.cs" />
+    <Compile Include="writeMessageActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
