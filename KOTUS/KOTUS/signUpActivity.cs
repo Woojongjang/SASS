@@ -53,6 +53,12 @@ namespace KOTUS
 			//TODO
 			return false;
 		}
+			
+		// returns true if the passwords are of the valid format
+		private bool check_passes_are_valid(){
+			//need to implement
+			//TODO
+		}
 
 		// returns true if the first and last name is valid
 		private bool check_names(){
@@ -117,6 +123,9 @@ namespace KOTUS
 
 				// check that phone number is valid
 				bool phone_valid = check_phone_number();
+
+				// check that passwords are valid
+				bool pass_valid = check_passes_are_valid();
 
 				// check that the passwords match
 				bool pass_match = check_passwords_match();
