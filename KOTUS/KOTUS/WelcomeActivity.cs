@@ -38,7 +38,7 @@ namespace KOTUS
 			log_in_button.Click += delegate {
 				// this is where you tell it what to do when the button is pressed
 				Console.WriteLine("Log In Button Pressed!!");
-				StartActivity(typeof(UserDashActivity)); 
+				//StartActivity(typeof(UserDashActivity)); 
 			};
 
 			sign_me_up_link.Click += delegate {
