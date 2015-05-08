@@ -59,6 +59,7 @@ namespace KOTUS
 		private bool check_passes_are_valid(){
 			//need to implement
 			//TODO
+			return false;
 		}
 
 		// returns true if the first and last name is valid
