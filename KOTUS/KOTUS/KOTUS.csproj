@@ -56,7 +56,6 @@
     <Compile Include="UserDashActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="CreatePersonalEvent.cs" />
-    <Compile Include="EmptyClass.cs" />
     <Compile Include="writeMessageActivity.cs" />
     <Compile Include="CreateGroup.cs" />
     <Compile Include="GroupDashActivity.cs" />
