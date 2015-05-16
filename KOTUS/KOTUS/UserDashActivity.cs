@@ -15,9 +15,9 @@ namespace KOTUS
 	[Activity (Label = "User Dashboard")]			
 	public class UserDashActivity : Activity
 	{
-		//private Button event_create_button;
-		//private Button browse_group_button;
-		//private Button group_list_button;
+		private Button event_create_button;
+		private Button browse_group_button;
+		private Button group_list_button;
 		private Button group_create_button;
 
 		protected override void OnCreate (Bundle bundle)
@@ -27,7 +27,14 @@ namespace KOTUS
 			// set the current layout
 			SetContentView (Resource.Layout.UserDash);
 
-			group_create_button = FindViewById<Button> (Resource.Id.createGroupButton);
+
+			group_list_button = FindViewById<Button> (Resource.Id.button3);
+
+			event_create_button = FindViewById<Button> (Resource.Id.button4);
+
+			browse_group_button = FindViewById<Button> (Resource.Id.button2);
+
+			group_create_button = FindViewById<Button> (Resource.Id.button1);
 
 			group_create_button.Click += delegate {
 				// this is where you tell it what to do when the button is pressed
