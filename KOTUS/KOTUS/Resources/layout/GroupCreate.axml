@@ -34,7 +34,7 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/spinner"
+        android:id="@+id/privacy_setting"
         android:prompt="@string/privacy" />
     <Button
         android:text="Create Group!"
