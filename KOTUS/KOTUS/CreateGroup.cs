@@ -34,10 +34,10 @@ namespace KOTUS
 
 		private bool check_groupName(){
 			//check if valid name inputted
-			if(group_name.Text.Length == 0){
-				group_name.SetError ("Create a valid Group Name!");
+			if (group_name.Text.Length == 0) {
 				return false;
-			}
+			} else
+				return true;
 		}
 
 		protected override void OnCreate (Bundle bundle)
@@ -46,6 +46,11 @@ namespace KOTUS
 
 			// set the current layout
 			SetContentView (Resource.Layout.GroupCreate);
+
+			String errorSymbol = "error";
+			var resID = Resources.GetIdentifier (errorSymbol, "drawable", PackageName);
+			//var errorIcon = Resources.GetDrawable(Resources.GetIdentifier(resID.ToString, "drawable", PackageName));
+
 
 			create_group_button = FindViewById<Button> (Resource.Id.groupCreateButton);
 			group_name = FindViewById<EditText> (Resource.Id.groupName);
@@ -57,7 +62,7 @@ namespace KOTUS
 			privacy_setting.Adapter = adapter;
 
 			//Check if valid Group Name then create group, parse stuff, and generate group id, got to Group Dash
-			if (group_name == check_groupName ()) {
+			if (check_groupName ()) {
 
 				create_group_in_parse ();
 
@@ -65,9 +70,11 @@ namespace KOTUS
 
 				create_group_button.Click += delegate {
 					// this is where you tell it what to do when the button is pressed
-					Console.WriteLine("Create Group Button Pressed!!");
-					StartActivity(typeof(GroupDashActivity)); 
+					Console.WriteLine ("Create Group Button Pressed!!");
+					StartActivity (typeof(GroupDashActivity)); 
 				};
+			} else {
+				group_name.SetError ("Create a valid Group Name!",  Resources.GetDrawable(Resource.Drawable.error));
 			}
 
 		}
